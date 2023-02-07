@@ -1,0 +1,19 @@
+.hungry_header {
+    text-align: center;
+    margin: 2rem 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+.hungry_footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.hungry_footer_logo {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.hungry_footer_button {
+    font-size: 1rem;
+}
