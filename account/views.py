@@ -57,7 +57,7 @@ class AccountUpdateView(UpdateView):
         else:
             return HttpResponseForbidden()
 
-class AccountDeleteView(DeleteView):
+class AccountDeleteView(DeleteView) :
     model = User
     context_object_name = 'target_user'
     success_url = reverse_lazy('account:login')
